@@ -1,9 +1,7 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
-// import {createStackNavigator} from '@react-navigation/stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-vector-icons/Feather';
-Icon.loadFont();
 import Home from './pages/Home';
 import FAQ from './pages/FAQ';
 import DataUsage from './pages/DataUsage';
