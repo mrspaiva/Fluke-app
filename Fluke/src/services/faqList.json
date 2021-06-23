@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "question": "O que é a Fluke?",
+    "answer": "Uma nova experiência em conexão, totalmente digital.\n\nNós somos a Fluke, uma empresa de tecnologia que trabalha para mostrar que existe uma nova - e melhor! - maneira de se fazer telefonia móvel no Brasil.\n\nNós não somos uma operadora tradicional - nascemos justamente para dar voz aos clientes. Através do nosso app, queremos que nossos usuários tenham autonomia e controle de verdade. Além de entender o quanto consomem e poder contratar apenas o que realmente precisam, sem planos que não fazem sentido e sem ficar preso a contratos de fidelidade."
+  },
+  {
+    "id": 2,
+    "question": "Em quais regiões a Fluke já está disponível?",
+    "answer": "Apesar de nossa cobertura ser nacional (onde você for com o nosso chip, ele irá funcionar), por enquanto, nós podemos entregar nossos chips apenas localidades com os seguintes DDDs:\n\nSP do DDD 11 ao 19 (todo o estado)\n\nGO, DDDs 62 e 64 (todo o estado)\n\nDF, DDD 61 (todo o estado)\n\nRJ, DDDs 21, 22 e 24 (todo o estado)\n\nMG, DDDs 31, 32, 33 e 34\n\nPR, DDDs 41, 42, 43 e 44"
+  },
+  {
+    "id": 3,
+    "question": "Como são a cobertura e as antenas da Fluke?",
+    "answer": "A Fluke tem cobertura em todo o território nacional e já estamos trabalhando para que, no futuro, nosso chip funcione em outros países.\n\nNós alugamos as mesmas antenas usadas pela Vivo, que já existem em todo o Brasil."
+  },
+  {
+    "id": 4,
+    "question": "Como é o processo para manter meu número atual (portabilidade)?",
+    "answer": "Durante a ativação do seu chip, você pode escolher entre pedir portabilidade ou receber um número novo. Se você optar por um número novo e mais para frente quiser fazer portabilidade, você pode fazer esta solicitação a qualquer momento pelo nosso aplicativo.\n\nAssim que você pede a portabilidade, a Fluke já solicita o seu número para a operadora atual. Se o pedido de portabilidade for feito durante a ativação do seu chip, nós te daremos um número provisório para você usar enquanto o processo ocorre.\n\nO chip da operadora antiga funcionará com o seu número até ele ser cedido. Nem precisa se preocupar que, quando a portabilidade estiver finalizada, nós vamos te avisar. Assim, seu número vem pro chip Fluke, o chip antigo perde o sinal e você já pode jogá-lo fora.\n\nOu seja, você não fica sem número durante o processo, que demora 5 dias úteis aproximadamente.\n\nÉ importante ressaltar que você precisa ser o titular da linha na operadora antiga e que o número precisa estar ativo (não pode estar bloqueado por contas pendentes ou muito tempo sem crédito, por exemplo).\n\nCaso você não seja o titular, é só nos chamar no chat do aplicativo que te ajudamos!"
+  },
+  {
+    "id": 5,
+    "question": "Como funciona o cancelamento? Há taxas?",
+    "answer": "Nós não temos nenhuma taxa de cancelamento. Queremos que você tenha facilidade ao escolher o serviço que faz mais sentido para você!\n\nO cancelamento pode ser feito no próprio aplicativo. Ao escolher cancelar sua conta, você perderá seus pacotes disponíveis e também o número. Então, caso queira fazer a portabilidade para fora da Fluke, é necessário que faça antes de cancelar a conta :)"
+  },
+  {
+    "id": 6,
+    "question": "Como peço meu chip Fluke?",
+    "answer": "Se já estivermos distribuindo chips na sua região, basta baixar nosso aplicativo no seu celular. Para pedir seu chip, você precisará cadastrar suas informações pessoais, endereço, escolher seu primeiro plano e já efetuar o pagamento deste. Não precisa se preocupar que ele só passa a valer depois que o seu chip chegar e você ativá-lo. Além disso, não há nenhuma cobrança pelo chip ou pelo envio ;)"
+  },
+  {
+    "id": 7,
+    "question": "Meu chip chegou. Como eu ativo a minha linha?",
+    "answer": "Você precisará ter o chip em mãos, mas inseri-lo no aparelho é a última etapa.\n\nPara ativar sua linha basta acessar nosso aplicativo, entrar com o seu login e senha já cadastrados, clicar em chegou e seguir o passo a passo dado no próprio aplicativo!"
+  },
+  {
+    "id": 8,
+    "question": "Quando posso pedir portabilidade (para manter meu número atual)?",
+    "answer": "Durante a ativação do seu chip, você pode escolher entre pedir portabilidade ou receber um número novo. Se você optar por um número novo e mais para frente quiser fazer portabilidade, você pode fazer esta solicitação a qualquer momento pelo nosso aplicativo.\n\nA portabilidade acontece em cerca de 5 dias úteis. Enquanto isso, o chip antigo continua funcionando e, se a solicitação for feita no momento da ativação do seu chip Fluke, te daremos um número provisório para já ir utilizando os nossos serviços :)\n\nQuando a portabilidade for concluída e seu número atual vir pro chip Fluke, te avisaremos por e-mail e pelo próprio app. Aí você já pode se desfazer do chip antigo ;)\n\nTambém é importante lembrar que você não perderá seu pacote quando o processo de portabilidade terminar."
+  },
+  {
+    "id": 9,
+    "question": "É preciso realizar alguma configuração no celular após ativar o meu chip?",
+    "answer": "Só é necessário realizar a seguinte configuração caso os seus dados móveis não estejam funcionando. Para realizar ligações e enviar SMS, não é necessária nenhuma configuração adicional.\n\nPara configurar seus dados móveis, procure nas configurações do seu celular por \"Redes Móveis\" ou \"Rede Móvel\" e selecione essa opção.\n\nSelecione \"Pontos de Acesso\" ou \"Nomes dos pontos de acesso\". Caso não apareça procure por \"Avançado\", deve estar lá.\n\nAgora procure por \"Adicionar ponto de acesso\" ou \"+\" e faça as seguintes alterações:\n\nEm \"Nome\" escreva: \"Fluke\"\n\nEm \"APN\" escreva: \"Fluke.br\"\n\nEm \"Tipo de APN\": \"default\"\n\nFeito isso é só ligar os seus dados móveis novamente."
+  },
+  {
+    "id": 10,
+    "question": "Posso mudar entre pacotes?",
+    "answer": "Pode sim, e você não é cobrado nada a mais por isso. Nossa premissa é a liberdade.\n\nVocê pode trocar entre pacotes quando quiser, apenas duas informações são importantes:\n\n- A troca NÃO é imediata, ela ocorre no período da próxima renovação (por exemplo, se seu pacote renova no dia 20 e você solicitou uma troca no dia 06, a troca só será efetuada no dia 20);\n- Ao trocar de plano, nada que restou de um é transferido para o outro. Se você está no pacote personalizado e tem um acúmulo de 2 GB, por exemplo, ao trocar para o pronto, os 2GB expiram."
+  },
+  {
+    "id": 11,
+    "question": "Como são feitas as cobranças?",
+    "answer": "Nosso modelo é pré-pago e nossas renovações são mensais ou semanais, de acordo com o que você escolheu no ajuste do seu pacote.\n\nCom a forma de pagamento principal sendo o cartão de crédito, semanal ou mensalmente - dependendo do seu plano, cobraremos automaticamente a renovação do pacote pro próximo ciclo no seu cartão de crédito.\n\nSempre enviamos uma notificação no seu celular antes de renová-lo, por isso, fique de olho caso queira alterar alguma coisa.\n\nCom a forma de pagamento principal sendo o PayPal, o pagamento deve ser manual - ainda não conseguimos cobrar automaticamente.\n\nPor isso, você deve ficar de olho nas nossas notificações para entrar no aplicativo e pagar manualmente a renovação para o próximo ciclo (mensal ou semanal), para que não se desconecte!"  
+  }
+]
