@@ -1,10 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
+import {FlatList} from 'react-native';
 import {List} from 'react-native-paper';
 import Icon from 'react-native-vector-icons/Feather';
 import {Container, Header, HeaderText} from './styles';
+import QuestionList from '../../services/faqList.json';
 
 const FAQ = () => {
-  const [expanded, setExpanded] = React.useState(true);
+  const [expanded, setExpanded] = useState(true);
+  const [question, setQuestion] = useState(QuestionList);
 
   const handlePress = () => setExpanded(!expanded);
 
@@ -12,27 +15,39 @@ const FAQ = () => {
     <Container>
       <Header>
         <HeaderText>FAQ</HeaderText>
-        <List.Section style={{backgroundColor: '#C3E5D7'}}>
-          <List.Accordion
-            onPress={handlePress}
-            style={{
-              backgroundColor: expanded ? '#f0f0f0' : '#C3E5D7',
-              borderBottomWidth: expanded ? 1 : 0,
-              borderBottomColor: expanded ? '#dadbdf' : '#79CAA0',
-            }}
-            theme={{colors: {primary: '#79CAA0', text: '#79CAA0'}}}
-            title="O que é a Fluke?">
-            <List.Item
-              style={{paddingTop: 0, marginTop: 0}}
-              theme={{
-                colors: {primary: '#79CAA0', text: '#535855'},
-              }}
-              description="O Fluke App é o aplicativo da Fluke. É por lá que você vai pedir e ativar seu chip, comprar seu pacote e acompanhar seu consumo como e quando você quiser, sempre que você precisar. Nele também são feitas todas as alterações de pacote, compra de adicionais, pedido de portabilidade e chat com o time salva-vidas."
-              descriptionNumberOfLines={10}
-            />
-          </List.Accordion>
-        </List.Section>
       </Header>
+      <FlatList
+        data={question}
+        keyExtractor={QuestionList => String(QuestionList.id)}
+        renderItem={({item: QuestionList}) => (
+          <>
+            <List.Section
+              style={{
+                backgroundColor: expanded ? '#f0f0f0' : '#C3E5D7',
+                paddingHorizontal: 16,
+              }}>
+              <List.Accordion
+                onPress={handlePress}
+                style={{
+                  backgroundColor: expanded ? '#f0f0f0' : '#C3E5D7',
+                  borderBottomWidth: expanded ? 1 : 0,
+                  borderBottomColor: expanded ? '#dadbdf' : '#79CAA0',
+                }}
+                theme={{colors: {primary: '#79CAA0', text: '#79CAA0'}}}
+                title={QuestionList.question}>
+                <List.Item
+                  theme={{
+                    colors: {primary: '#79CAA0', text: '#535855'},
+                  }}
+                  description={QuestionList.answer}
+                  descriptionStyle={{fontSize: 16, marginTop: -30}}
+                  descriptionNumberOfLines={16}
+                />
+              </List.Accordion>
+            </List.Section>
+          </>
+        )}
+      />
     </Container>
   );
 };

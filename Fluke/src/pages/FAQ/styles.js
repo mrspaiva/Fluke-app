@@ -7,15 +7,17 @@ export const Container = ({children}) => {
     <View
       style={{
         flex: 1,
-        padding: 16,
         paddingTop: StatusBar.currentHeight + 24,
+        backgroundColor: '#f0f0f0',
       }}>
       {children}
     </View>
   );
 };
 
-export const Header = styled.View``;
+export const Header = styled.View`
+  margin-bottom: 10%;
+`;
 
 export const HeaderText = styled.Text`
   font-size: 64px;
