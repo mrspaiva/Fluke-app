@@ -16,8 +16,15 @@ export const Container = ({children}) => {
   );
 };
 
-export const SearchDate = styled.TextInput`
+export const SearchDateSection = styled.View`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   margin-bottom: 10%;
+`;
+
+export const SearchDate = styled.TextInput`
+  margin-left: 2%;
 `;
 
 export const DataUsageSection = styled.View`
