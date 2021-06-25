@@ -17,22 +17,34 @@ import {
 } from './styles';
 
 const Home = () => {
-  // useEffect(() => {
-  //   async function loadData() {
-  //     const response = await api.get(
-  //       '/usage/records?startDate=2020-08-01&endDate=2020-08-03',
-  //     );
-  //     const data = response.data;
-  //     console.log(data);
-  //   }
-  //   loadData();
-  // }, []);
+  const [dataa, setData] = useState([]);
+
+  useEffect(() => {
+    async function loadData() {
+      const response = await api.get('/usage/packageInformation/', {
+        headers: {
+          Authorization: 'example@email.com',
+        },
+      });
+      const contentData = response.data;
+      setData(contentData);
+    }
+    loadData();
+  }, []);
+
+  function formatBytes(value) {
+    const gigabytes = 1000;
+    return (value / gigabytes).toFixed(1);
+  }
+
+  function formatPorcentage() {
+    const result = dataa.data.topup / dataa.data.available;
+    return Number(result) * 100;
+  }
 
   return (
     <Container>
       <HeaderContainer>
-        {/* <LogoCircle /> */}
-        {/* <Logo style={{margin: 0, padding: 0}} /> */}
         <HeaderText>Fluke</HeaderText>
         <Icon name="user" color={'#000'} size={26} />
       </HeaderContainer>
@@ -41,7 +53,7 @@ const Home = () => {
 
       <ConsumingCircle>
         <ProgressCircle
-          percent={65}
+          percent={formatPorcentage()}
           radius={110}
           borderWidth={2}
           color="#0ef500"
@@ -60,7 +72,7 @@ const Home = () => {
             Restam
             <Text style={{fontSize: 26, color: '#000', fontWeight: '600'}}>
               {' '}
-              2.97
+              {formatBytes(dataa.data.subscription)}{' '}
             </Text>
             <Text style={{fontSize: 20, color: '#333'}}> GB </Text>
             do plano
@@ -70,13 +82,13 @@ const Home = () => {
 
       <FooterNavigation>
         <PackageInfo>
-          <PackageValue>13 min</PackageValue>
-          <PackageText>falados</PackageText>
+          <PackageValue>{dataa.minutes.topup} min</PackageValue>
+          <PackageText>adicionais</PackageText>
         </PackageInfo>
 
         <PackageInfo>
-          <PackageValue>2 GB</PackageValue>
-          <PackageText>usados</PackageText>
+          <PackageValue>{formatBytes(dataa.data.topup)} GB</PackageValue>
+          <PackageText>adicionais</PackageText>
         </PackageInfo>
       </FooterNavigation>
     </Container>
