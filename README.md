@@ -1,9 +1,10 @@
 <h1 align="center">Operadora app 📱</h1>
 <p align="center">Aplicação de uma operadora fictícia</p>
 
+
 |                             |                             |                                 |
 | :-------------------------- | :-------------------------: | :-----------------------------: |
-| ![01](https://ibb.co/TwTLLnM) | ![02](https://ibb.co/4PSd1XW) | ![03](https://ibb.co/z7N6sQV) | ![04](https://ibb.co/sKLnbQD)
+| ![01](https://github.com/mrspaiva/Fluke-app/blob/main/Fluke/src/assets/image1.jpg) | ![02](https://github.com/mrspaiva/Fluke-app/blob/main/Fluke/src/assets/image2.jpg) | ![03](https://github.com/mrspaiva/Fluke-app/blob/main/Fluke/src/assets/image3.jpg) | ![04](https://github.com/mrspaiva/Fluke-app/blob/main/Fluke/src/assets/image4.jpg)
 |                             |                             |                                 |
 
 
